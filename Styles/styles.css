@@ -1,0 +1,485 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "poppins", Verdana;
+  overflow-x: hidden;
+  
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
+    height: 100px;
+    background-image: url("../Images/Rectangle 599.png");
+}
+.icon img{
+    height: auto;
+    width: 5rem;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+nav a{
+    text-decoration: none;
+    display: block;
+    font-size: 1rem;
+    color: #000000;
+    transition: color 0.3s ease-in-out;
+}
+nav a:hover{
+    color: #26A69A;
+}
+.btn{
+    display: flex;
+    gap: 1rem;
+    
+}
+.btn1{
+    background-color: #CBFFD0;
+    padding: 8px 30px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 1px 4px #5a5a5a;
+}
+.btn2{
+    background-color: #26A69A;
+     padding: 8px 30px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 1px 4px #5a5a5a;
+}
+
+.features{
+    display: flex;
+    align-items: end;
+    gap: 5px;
+}
+
+.features img{
+    height: auto;
+    width: 1.5rem;
+}
+.one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 400px;
+    padding-top: 150px;
+    background-image: url("../Images/Rectangle 599.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.one h1{
+    font-size: 2.8rem;
+    margin-bottom: 0.3rem;
+    font-weight: 900;
+}
+.one p{
+font-size: 1.1rem;
+font-weight: 550;
+margin-top: 0.3rem;
+line-height: 1.5rem;
+
+}
+.text img{
+    height: auto;
+    width: 15rem;
+    margin-top: 50px;
+}
+.text{
+    margin-left: 30px;
+}
+.type{
+    position: absolute;
+    left: 50%;
+    transform: translate(10%);
+    height: auto;
+    width: 35rem;
+    top: 30%;
+}
+ .rect{
+    height: auto;
+    width: 20rem;
+}
+
+.two{
+    
+ display: flex;
+ background-color: #ffffff; 
+ color: #000000;
+ box-shadow: 10px 8px 6px -6px #817e7e;
+ /* height: 1200px; */
+ position: relative;
+ margin: 10px;
+}
+.two .title{
+    position: absolute;
+    font-size: 46px;
+    font-weight: 700;
+    top:0;
+    left: 500px;
+    margin-bottom: 0.3rem;
+    z-index: 0;
+    text-align: center;
+}
+.section2 .rectangle2{
+    position: absolute;
+    top: 0;
+    left: 0%;
+    height: auto;
+    width: 395px;
+}
+.section2  .iphone1{
+    position: absolute;
+    width: 450px;
+    z-index: 20;
+    top: 130px;
+    padding: 0;
+    margin: 0;
+}
+.all-square{
+    margin: 0 50 30px;
+}
+.sq1{
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 150px 500px;
+}
+
+.f1,.f2 {
+    width: 300px;
+    height: 330px;
+    border: 1px solid rgb(251, 251, 251);
+    border-radius: 27px;
+    margin-right: 60px;
+    padding-top: 20px;
+    padding-left: 5px;
+}
+.f1{
+    background-color: #CBFFD0;
+}
+.f2{
+    background-color: #26A69A;
+}
+.iconboook{
+    height: auto;
+
+}
+.income{
+   color: #000000; 
+   font-size: 27px;
+   font-weight: 700;
+   margin: 0 0.8em;
+   
+}
+.incometxt{
+    color: #000000; 
+   font-size: 21px;
+   font-weight: 500;
+   margin: 0 1em;
+}
+.three{
+    background-image: url("../Images/Rectangle\ 599.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 0;
+}
+
+.title2{
+    text-align: center;
+    font-weight: 700;
+    font-size: 44px;
+    margin-top: 50px;
+    
+}
+.three ol li{
+  list-style-position: inside; 
+  width: 500px;
+  height: 65px;
+  border-radius: 27px;
+  margin-top: 50px;
+  font-size: 24px;
+  font-weight: 550;
+  padding: 10px 50px;
+}
+.lists1{
+    display: inline-block;
+margin:30px 3px;
+    background-color: #CBFFD0;
+}
+.l1{
+    margin-left: 220px;
+}
+
+.lists2{
+    display: inline-block;
+    margin-left: 80px;
+    margin-bottom: 150px;
+    background-color: #26A69A;
+}
+.imgpost{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.firstimg,.secoundimg{
+    width: 350px;
+    height: auto
+      
+}
+
+    
+.handphone{
+    
+    position: absolute;
+    height: auto;
+    width: 35rem;
+    left: 50%;
+    transform: translate(-30%);
+    top: 45%;
+    
+}
+
+.four{
+    display: flex;
+    position: relative;
+    height: 1000px;
+    background-color: #ffffff; 
+ color: #000000;
+ box-shadow: 10px 8px 9px -4px #817e7e;
+ margin: 10px;
+ z-index: 700;
+
+}
+.title3{
+
+    line-height: 100%;
+    font-weight: 700;
+    font-size: 40px;
+    align-self:auto;
+    justify-self: center;
+    margin: 50px 600px;
+    text-align: center;
+    margin-top: 50px;
+}
+.i626{
+   position: absolute; 
+   top: 0;
+   left: 0;
+   width: 420px;
+}
+
+.i627{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: rotate(180deg);
+}
+.contain{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: 300px;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    
+}
+.user{
+    height: auto;
+    width: 70px;
+    margin-top: 0;
+}
+.fit{
+    display: flex;
+    gap: 220px;
+}
+
+.slide1{
+    background-color: #CBFFD0;
+    border-radius: 27px;
+     padding: 10px 10px 20px 10px;
+     width: 250px;
+     height: 300px;
+     display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+
+}
+.slide2{
+    background-color: #26A69A;
+    z-index: 200;
+     border-radius: 27px;
+     padding: 10px 10px 20px 10px;
+     width: 300px;
+     height: 430px;
+     display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 390px;
+    
+}
+
+.slide3{
+    
+    
+    background-color: #CBFFD0;
+    border-radius: 27px;
+     padding: 10px 10px 20px 10px;
+     width: 250px;
+     height: 300px;
+     display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: 10px;
+
+}
+
+.four .txt{
+    padding: 0 1px;
+    font-weight: 500;
+}
+.featurestxt{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 50px;
+}
+
+
+.five{
+      
+ background-image: url("../Images/Rectangle\ 599.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    padding-bottom: 80px;
+    height: 900px;
+    
+}
+.title4{
+    text-align: center;
+    position: absolute;
+    margin-left: 180px;
+    margin-top: 100px;
+    font-weight: 700;
+}
+.limg{
+position: absolute;
+width: 25rem;
+height: auto;
+position: absolute;
+top: 0;
+left: 0;
+transform: translate(0);
+} 
+.rectcontain{
+    display: flex;
+    flex-direction: column;
+    margin: 280px 10px 0 300px;
+    border-radius: 37px;
+    background-color: #26A69A;
+    gap: 40px;
+    width: 520px;
+    height: 450px;
+    padding: 50px 20px 20px 20px;
+
+} 
+.fivetxt{
+    width: 450px;
+    height: 780px;
+    background-color: #CBFFD0;
+    border-radius: 15px;
+    margin: 0 auto;
+    position: relative;
+}
+.five .fivetxt p{
+    font-size: 17px;
+    font-weight: 500;
+    text-align: left;
+    position: absolute;
+    left: 5%;
+    top: 25%;
+}
+.arrow{
+    width: 2.5rem;
+    height: auto;
+    margin-left: 380px;
+    margin-top: 7px;
+
+
+}
+footer{
+    background-color: #26A69A;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+.chart{
+    filter:brightness(0) invert(1);
+    margin-top: 30px
+}
+.track,
+.clearity{
+font-size: 20px;
+color: #ffffff;
+}
+.GP{
+    height: auto;
+    width: 16rem;
+    
+    
+}
+.track span{
+    font-weight: 500;
+    font-size: 25px;
+    margin: 0;
+}
+
+.facebook, .instagram, .twitter{
+    width: 50px;
+    height: auto;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    gap: 10em;
+    margin-bottom: 20px;
+    font-size: 20px;
+    
+}
+a:link{
+    text-decoration: none;
+    color: #ffffff;
+}
